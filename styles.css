@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.canvas-container{
+    width: 50%;
+}
+
+.chat-container{
+    background-color: gray;
+    width: 50%;
+    border: solid;
+    border-radius: 1rem;
+}
+
+.chat-container button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: solid #CCCCCC;
+}
+
+#canvas {
+    border: solid;
+}
